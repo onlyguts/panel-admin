@@ -4,13 +4,22 @@ body {
     padding: 0;
 }
 
+
 .container {
+    display: flex;
+    height: 100vh;
+}
+
+
+.sidebar {
     display: flex;
     flex-direction: column;
     background-color: #5e8fbb;
     min-height: 100vh;
-    width: 10vw;
+    width: 45vw;
+    
 }
+
 
 .container-div {
     display: flex;
@@ -18,7 +27,6 @@ body {
     background-color: #87b7e0;
     line-height: 1;
     align-items: left;
-    width: 10vw;
     padding: 0.3rem;
     box-sizing: border-box;
 }
@@ -32,7 +40,9 @@ body {
     display: flex;
     align-items: center;
     cursor: pointer;
+    
 }
+
 
 .menu-home {
     display: flex;
@@ -41,12 +51,14 @@ body {
     padding: 2rem;
 }
 
+
 .container a {
     color: #000000;
     text-decoration: none;
     margin-bottom: 0.5rem;
     font-size: 0.9rem;
 }
+
 
 .container details summary {
     display: flex;
@@ -61,3 +73,16 @@ body {
 details summary {
     margin-bottom: 1rem;
 }
+
+.main {
+    background-color: #d1d1d1;
+    min-height: 100vh;
+    width: 1000vh;
+}
+
+.main h1 {
+display: flex;
+justify-content: center;
+text-align: center;
+}
+
