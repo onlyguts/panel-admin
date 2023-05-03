@@ -7,7 +7,7 @@ body {
 
 .container {
     display: flex;
-    height: 100vh;
+    height: 110vh;
 }
 
 
@@ -15,9 +15,9 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #5e8fbb;
-    min-height: 100vh;
+    min-height: 110vh;
     width: 45vw;
-    
+
 }
 
 
@@ -40,7 +40,7 @@ body {
     display: flex;
     align-items: center;
     cursor: pointer;
-    
+
 }
 
 
@@ -76,13 +76,13 @@ details summary {
 
 .main {
     background-color: #d1d1d1;
-    min-height: 100vh;
+    min-height: 110vh;
     width: 1000vh;
 }
 
 .main h1 {
-display: flex;
-justify-content: center;
-text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
