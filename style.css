@@ -64,14 +64,18 @@ body {
     display: flex;
     align-items: center;
     cursor: pointer;
+
 }
 
 .container details summary img {
     margin-right: 1rem;
+    margin-left: 0.5rem;
+
 }
 
 details summary {
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .main {
