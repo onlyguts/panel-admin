@@ -1,35 +1,34 @@
-/* Style de base pour le corps de la page */
 body {
   background-color: #F5F5F5;
-  /* Couleur de fond */
+
   margin: 0;
-  /* Supprimer les marges par défaut du corps */
+
   padding: 0;
-  /* Supprimer les marges intérieures par défaut du corps */
+
   font-family: Arial, sans-serif;
 
 }
 
-/* Conteneur principal de la page */
+
 .container {
   display: flex;
-  /* Afficher les éléments en tant que conteneur flexible */
+
   min-height: 100vh;
-  /* Définir la hauteur minimale de la page à 100% de la hauteur de la vue */
+
 }
 
-/* Barre latérale */
+
 .sidebar {
   display: flex;
-  /* Afficher les éléments de la barre latérale en tant que conteneur flexible */
+
   flex-direction: column;
-  /* Afficher les éléments de la barre latérale en colonne */
+
   background-color: #5e8fbb;
-  /* Couleur de fond de la barre latérale */
+
   width: 250px;
-  /* Largeur de la barre latérale */
+
   min-height: 100vh;
-  /* Définir la hauteur minimale de la barre latérale à 100% de la hauteur de la vue */
+
 }
 
 
@@ -73,44 +72,44 @@ body {
   display: flex;
   margin: 0.5rem;
 }
-/* Menu principal */
+
 .menu-home {
   display: flex;
-  /* Afficher le menu en tant que conteneur flexible */
+
   flex-direction: column;
-  /* Afficher les éléments du menu en colonne */
+
   align-items: center;
-  /* Aligner les éléments au centre */
+
   margin: 2rem;
   padding: 2rem;
-  /* Ajouter un peu de remplissage */
+
 }
 
-/* Lien dans le conteneur principal */
+
 .container a {
   color: #000000;
-  /* Couleur du texte */
+
   text-decoration: none;
-  /* Pas de soulignement */
+
   padding-bottom: 0.5rem;
-  /* Marge en bas */
+
   font-size: 1.0rem;
-  /* Taille de police */
+
 }
 
-/* Résumé de détails dans le conteneur principal */
+
 .container details summary {
   display: flex;
-  /* Afficher en flex */
+
   align-items: center;
-  /* Centrer les éléments */
+
   cursor: pointer;
   font-size: 1.5rem;
 
-  /* Curseur pointer au survol */
+
 }
 
-/* Icône dans le résumé de détails */
+
 .container details summary img {
   margin-right: 1rem;
   margin-left: 0.5rem;
@@ -118,49 +117,44 @@ body {
 
 
 
-/* Résumé de détails */
+
 details summary {
   margin-bottom: 1rem;
-  /* Marge en bas */
+
   margin-top: 1rem;
-  /* Marge en haut */
+
 }
 
-
-
-/* Contenu principal */
 .main {
   padding: 1rem;
-  /* Ajouter un peu d'espacement autour du contenu */
+
   background-color: #FFFFFF;
-  /* Couleur de fond */
+
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  /* Ajouter une ombre légère */
+
   flex-grow: 1;
 }
 
-/* Titre du contenu principal */
+
 .main h1 {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
-/* Sous-titre du contenu principal */
+
 .main h2 {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
-/* Paragraphe du contenu principal */
 .main p {
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 1rem;
 }
 
-/* Bouton du contenu principal */
 .main button {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -180,12 +174,10 @@ details summary {
   transition: all 0.3s ease;
 }
 
-/* Lien du contenu principal survolé */
 .main a:hover {
   text-decoration: underline;
 }
 
-/* Bouton du contenu principal survolé */
 .main button:hover {
   background-color: #0062cc;
 }
@@ -206,4 +198,3 @@ details summary {
   padding-left: 0;
   margin-top: 0;
 }
-
